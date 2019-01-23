@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v2.6.1 - 31/1/2018"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Bug Fixes" />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v2.6.0 - 1/1/2018"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Bug Fixes\n- Προστέθηκαν Παγκόσμιες ημέρες" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v2.5.2 - 18/10/2017"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Bug Fixes\n- Pollfish SDK update" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v2.5.1 - 18/08/2017"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Bug Fixes" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v2.5.0 - 26/03/2017"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Προσθήκη Ανατολής/Δύσης ήλιου\n- Προσθήκη εορτών\n- Bug Fixes" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v2.4.2 - 13/12/2016"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Προσθήκη εορτών" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v2.4.1 - 04/11/2016"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Update του Pollfish SDK\n- Προσθήκη εορτων" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v2.4.0 - 11/06/2016"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Update του Pollfish SDK\n- Προσθήκη Παγκοσμίων Ημερών" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v2.3.2 - 19/03/2016"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Διόρθωση κινητών εορτών" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v2.3.0 - 01/01/2016"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Notification icon fix\n- Bug fixes" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v2.2.0 - 09/08/2015"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Αφαίρεση του Facebook μέχρι να βρεθεί λύση στη σύνδεση δεδομένων.\n- Προσθήκη button στην κεντρική οθόνη για εύκολη προσθήκη εορτών" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v2.1.2 - 29/06/2015"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Ανανέωση του Pollfish SDK\n- Προσθήκη εορτών" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v2.1.1 - 08/03/2015"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Ανανέωση του Pollfish SDK" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v2.1.0 - 20/01/2015"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Προστέθηκε το Pollfish, το οποίο είναι ένας τρόπος για να ενισχυθεί η ανάπτυξη της εφαρμογής, χωρίς να προστεθούν ενοχλητικές διαφημίσεις." />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v2.0.2 - 09/01/2015"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Διορθώθηκε ένα bug που προκαλούσε μήνυμα σφάλματος στο Android 5.0" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v2.0.1 - 01/01/2015"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Bug fixes" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v2.0.0 - 01/01/2015"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Νέα εμφάνιση βασισμένη στο Material Design" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v1.6.0 - 29/09/2014"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Νέο design\n- Backup/Restore βάσεων δεδομένων χρήστη" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v1.5.0 - 15/09/2014"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Προσθήκη εορτών\n- Προσθήκη ημιδιάφανων widgets" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v1.4.0 - 15/07/2014"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Προσθήκη μαύρου και διάφανου widget μεγέθους 5x1 για συσκευές όπως τα LG G2/G3" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v1.3.0 - 02/07/2014"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Προσθήκη κάτω μπάρας μενού για να είναι ευδιάκριτα όλα τα εικονίδια" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v1.2.1 - 30/06/2014"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sendEmailTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Προστέθηκαν ορισμένα ονόματα στην βάση δεδομένων των Greeklish για καλύτερα αποτελέσματα στο Facebook.\n- Διορθώθηκε το λευκό χρώμα στα ονόματα στις γιορτές στο Facebook" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v1.2.0 - 23/06/2014"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Υποστήριξη για Facebook. Όπως και στην παλιά εφαρμογή χρειάζεται να κάνετε μια φορά σύνδεση και συγχρονισμό ώστε να περαστούν οι γιορτές/γενέθλια στη βάση δεδομένων. Σε περίπτωση που υπάρχει επαφή, απαιτείται η επίσημη εφαρμογή του Facebook για να στείλετε μήνυμα στο inbox.\n- Bug Fixes" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v1.1.1 - 06/06/2014"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Προστέθηκε υποστήριξη για το MultiWindow mode της Samsung" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v1.1.0 - 03/06/2014"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Προστέθηκε δεύτερο 4x1 διάφανο widget\n- Προστέθηκαν οι κινητές εορτές στο dropdown της αναζήτησης\n- Ορισμένες διορθωμένες ημερομηνίες\n- Προστέθηκε δόνηση και ήχος κατά το notification εορτής/γενεθλίων" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v1.0.3 - 30/04/2014"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Διορθώθηκε το λευκό χρώμα στις custom λίστες\n- Προστέθηκε preview του widget" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v1.0.2 - 29/04/2014"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Διορθώθηκε ένα bug που προκαλούσε κρασάρισμα της εφαρμογής" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v1.0.1 - 29/04/2014"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Διορθώθηκαν οι τίτλοι σε ορισμένες οθόνες\n- Ορισμένα νέα εικονίδια\n- Προστέθηκε πειραματικός κώδικας για να παρακολουθούνται πιθανά crashes μέσω της υπηρεσίας Crashlytics (για αυτό χρειάζεται και το νέο permission)\n- Προσθήκη υποστήριξης και των tablets" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="v1.0.0 - 27/04/2014"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Πρώτη έκδοση" />
+    </LinearLayout>
+
+</ScrollView>

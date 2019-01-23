@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/myPrimaryColor</item>
+        <item name="colorPrimaryDark">@color/myPrimaryDarkColor</item>
+        <item name="colorAccent">@color/myAccentColor</item>
+        <item name="android:textColorPrimary">@color/myTextPrimaryColor</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+
+        <item name="android:windowBackground">@color/myWindowBackground</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="ToolBarStyle" parent="">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+
+    <style name="Animations" />
+
+    <!-- PopDownMenu -->
+    <style name="Animations.PopDownMenu" />
+
+    <style name="Animations.PopDownMenu.Left">
+        <item name="android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+    </style>
+
+    <style name="Animations.PopDownMenu.Right">
+        <item name="android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+    </style>
+
+    <style name="Animations.PopDownMenu.Center">
+        <item name="android:windowEnterAnimation">@anim/grow_from_top</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottom</item>
+    </style>
+    <!-- PopUpMenu -->
+    <style name="Animations.PopUpMenu" />
+
+    <style name="Animations.PopUpMenu.Left">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
+    </style>
+
+    <style name="Animations.PopUpMenu.Right">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
+    </style>
+
+    <style name="Animations.PopUpMenu.Center">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_top</item>
+    </style>
+
+
+    <style name="Button" parent="@android:style/Widget.Button">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:shadowColor">#FF000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">0.2</item>
+        <item name="android:textSize">16dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/btn_custom</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+</resources>

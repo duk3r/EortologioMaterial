@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<include
+    android:id="@+id/toolbar_actionbar"
+    layout="@layout/toolbar_default"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/toolbar_actionbar">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textviewfb4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="Facebook" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textViewfb1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textViewfb2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal"
+            android:visibility="gone" >
+        </TextView>
+
+        <ListView
+            android:id="@+id/listViewfb1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/listViewfb2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:visibility="gone" >
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/buttonfb1"
+                    style="@style/Button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:text="ΕΟΡΤΕΣ"
+                    android:layout_margin="3dp">
+                </Button>
+
+                <Button
+                    android:id="@+id/buttonfb2"
+                    style="@style/Button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="ΓΕΝΕΘΛΙΑ"
+                    android:layout_margin="3dp">
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/buttonfblogin"
+                    style="@style/Button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="Είσοδος"
+                    android:layout_margin="3dp">
+                </Button>
+
+                <Button
+                    android:id="@+id/buttonfbsync"
+                    style="@style/Button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="Sync"
+                    android:layout_margin="3dp">
+                </Button>
+
+                <Button
+                    android:id="@+id/buttonfblogout"
+                    style="@style/Button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="Έξοδος"
+                    android:layout_margin="3dp">
+                </Button>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/fragment_drawer"
+        android:name="com.duk3r.eortologio2.NavigationDrawerFragment"
+        android:layout_width="@dimen/navigation_drawer_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:layout="@layout/fragment_navigation_drawer"/>
+</android.support.v4.widget.DrawerLayout>
+</RelativeLayout>

@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId 'com.duk3r.eortologio2'
+        minSdkVersion 14
+        targetSdkVersion 21
+        versionCode 29
+        versionName "2.6.1"
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+
+
+
+    buildTypes {
+        release {
+
+            minifyEnabled false // new version
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:support-v4:21.0.0'
+    //noinspection GradleDependency
+    compile 'com.android.support:appcompat-v7:21.0.0'
+    compile 'com.android.support:recyclerview-v7:21.0.0'
+    compile 'com.google.android.gms:play-services-location:10.2.1'
+    compile project(':colorPickerView')
+    compile project(':wheel')
+    compile project(':pollfish-googleplay-4.2.0')
+}

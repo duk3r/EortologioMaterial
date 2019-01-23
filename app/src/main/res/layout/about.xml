@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Χιδερίδης Μανδαρής Αναστάσιος"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sendEmailTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="- chideridis@gmail.com" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="- www.liveplace.gr" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Twitter"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/twitterId" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Η εφαρμογή είναι νέα έκδοση της επιτυχημένης εφαρμογής Εορτολόγιο (by Gandevs) με πάνω από 450 χιλιάδες downloads." />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="Σε περίπτωση που κάποια γιορτή απουσιάζει ή είναι σε λάθος ημερομηνία, παρακαλώ επικοινωνήστε μαζί μου πριν αφήσετε αρνητική βαθμολογία." />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Μπορείτε να ενισχύσετε την ανάπτυξη της εφαρμογης μέσω Paypal στο παραπάνω e-mail." />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Για την εύρεση των ωρών Ανατολής/Δύσης του ήλιου χρησιμοποιήθηκε η SunriseSunsetLib του mikereedell. https://github.com/mikereedell/sunrisesunsetlib-java" />
+
+
+</LinearLayout>
+</ScrollView>

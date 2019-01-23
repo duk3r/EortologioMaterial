@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:gravity="center_horizontal"
+		android:padding="5dp"
+		android:text="Λίστα Εορτών"
+		android:id="@+id/EortesListTextView1"></TextView>
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:gravity="center"
+		android:visibility="gone"
+		android:text="Δεν έχετε προσθέσει γιορτή στη λίστα"
+		android:id="@+id/textVieweorteslist5"></TextView>
+	<ListView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:id="@+id/eorteslistView1" android:layout_weight="1"></ListView>
+
+</LinearLayout>

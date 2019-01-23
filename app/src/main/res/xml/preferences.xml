@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Θεμα Εφαρμογης" >
+        <ListPreference
+            android:defaultValue="16"
+            android:entries="@array/textvalues"
+            android:entryValues="@array/textvalues"
+            android:key="text_size"
+            android:summary="Επιλογή μεγέθους"
+            android:title="Γραμματοσειρά Εφαρμογής" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Ρυθμισεις" >
+        <Preference
+            android:key="eortes"
+            android:summary="Προσθήκη/Αφαίρεση Εορτών"
+            android:title="Εορτές" />
+        <Preference
+            android:key="bday"
+            android:summary="Προσθήκη/Αφαίρεση Γενεθλίων"
+            android:title="Γενέθλια" />
+        <Preference
+            android:key="argies"
+            android:summary="Προσθήκη/Αφαίρεση Αργίας"
+            android:title="Αργίες" />
+
+        <PreferenceScreen
+            android:key="importExport"
+            android:summary="Βάσεων Δεδομένων Χρήστη"
+            android:title="Backup/Restore" >
+            <Preference
+                android:key="importDB"
+                android:summary="Επαναφορά βάσης δεδομένων χρήστη"
+                android:title="Εισαγωγή ΒΔ χρήστη" />
+            <Preference
+                android:key="exportDB"
+                android:summary="Backup βάσης δεδομένων χρήστη"
+                android:title="Εξαγωγή ΒΔ Χρήστη" />
+            <Preference
+                android:key="importExportHelp"
+                android:summary="Σχετικά με το backup/restore"
+                android:title="Βοήθεια" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="lists"
+            android:title="Λίστες" >
+            <Preference
+                android:key="eortes_list"
+                android:summary="Προβολή λίστας Εορτών"
+                android:title="Λίστα Εορτών Χρήστη" />
+            <Preference
+                android:key="bday_list"
+                android:summary="Προβολή λίστας Γενεθλίων"
+                android:title="Λίστα Γενεθλίων Χρήστη" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Widget" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="notify1"
+            android:summary="Απαιτείται χρήση Widget"
+            android:title="Επιλογή Ειδοποίησης" />
+
+        <Preference
+            android:key="notify"
+            android:summary="Επιλογή ώρας ειδοποίησης"
+            android:title="Ειδοποίηση" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Σχετικα" >
+        <Preference
+            android:key="changelog"
+            android:summary="Τι καινούριο υπάρχει"
+            android:title="Changelog" />
+        <Preference
+            android:key="help"
+            android:summary="Βοήθεια χρήσης - πλοήγησης"
+            android:title="Βοήθεια" />
+        <Preference
+            android:key="about"
+            android:summary="Στοιχεία επικοινωνίας"
+            android:title="Σχετικά" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

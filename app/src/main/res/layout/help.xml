@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Η εφαρμογή έχει τις παρακάτω δυνατότητες:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:text="- Προβολή όσων γιορτάζουν σήμερα (αναζήτηση και στις επαφές)\n- Καρτέλα για εύκολη αναζήτηση στο χρόνο\n- Αργίες\n- Αναζήτηση γιορτής βάσει ονόματος\n- Προβολή γενεθλίων επαφών"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:text="Σε περίπτωση που απουσιάζει κάποια γιορτή/γενέθλια/αργία, υπάρχει δυνατότητα για χειροκίνητη προσθήκη μέσα από τις Ρυθμίσεις της εφαρμογής."
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:text="Η εφαρμογή έχει widget το οποίο έχει τη δυνατότητα προβολής εορτών και γενεθλίων για 3 ημέρες. Σε περίπτωση που έχετε ενεργοποιημένη την επιλογή υπενθύμισης εορτής, το widget πρέπει να υπάρχει τοποθετημένο σε κάποια από τις home screens σας, αλλιώς η ειδοποίηση δεν λειτουργεί."
+            android:textStyle="normal" />
+    </LinearLayout>
+
+</ScrollView>
